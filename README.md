@@ -16,12 +16,12 @@ This project demonstrates cloud automation and **Infrastructure-as-Code (IaC)** 
 
 ## Features
 
-- ✅ VMware VM discovery  
-- ✅ SAN / datastore detection  
-- ✅ Smart storage mapping (OS + data disks)  
-- ✅ Terraform file generation  
-- ✅ Automatic deployment to Azure  
-- 🔹 Extensible: dry-run mode, cost estimation, JSON export  
+- VMware VM discovery  
+- SAN / datastore detection  
+- Smart storage mapping (OS + data disks)  
+- Terraform file generation  
+- Automatic deployment to Azure  
+- Extensible: dry-run mode, cost estimation, JSON export  
 
 ---
 
