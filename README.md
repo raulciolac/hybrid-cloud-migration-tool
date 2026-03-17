@@ -36,3 +36,32 @@ This project demonstrates **cloud automation and infrastructure-as-code skills**
 ```bash
 git clone https://github.com/raulciolac/hybrid-cloud-migration-tool.git
 cd hybrid-cloud-migration-tool
+2.	Create and activate a Python virtual environment:
+python3 -m venv venv
+source venv/bin/activate
+3.	Install required libraries:
+pip install pyvmomi click
+4.	Configure VMware access in config.json:
+{
+  "vcenter": "IP_VCENTER",
+  "user": "administrator@vsphere.local",
+  "password": "PASSWORD"
+}
+Usage
+	•	Discover VMware VMs:
+python main.py discover
+	•	Generate Terraform files:
+python main.py generate
+•	Deploy to Azure automatically:
+python main.py deploy
+•	Output Terraform files are saved in the output/ folder
+
+⸻
+
+Notes
+	•	Make sure Azure CLI is installed and you are logged in (az login)
+	•	Terraform must be installed and available in your PATH
+	•	The tool can be extended for cost estimation, dry-run mode, or JSON export
+License
+
+
