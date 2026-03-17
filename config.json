@@ -1,0 +1,5 @@
+{
+  "vcenter": "IP_VCENTER",
+  "user": "administrator@vsphere.local",
+  "password": "PASSWORD"
+}
